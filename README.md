@@ -11,16 +11,12 @@ reduces or simplifies the equation by taking commons facotrs.
 
 Limitations: 
 1. The program does not reduce or simplify the final euation by taking highest common factors. 
-2. There is no proper handline for minimum or maximum values fo x and y- axis of co-ordinate pairs in this initial version. It's highly 
-recommended to use values under 10 for x and y.
-
-
+2. The program is only designed to take x-axis and y-axis values for co-ordinates in -30 to +30 range. So, it will show error message!
 
 ## How to run the program
 You can run the program in two ways. 
 1. Run it to just test using given test file named 'test_findline_equation.py' or 
 2. You can directly run the main file named 'findline_equation.py'
-
 
 ### Method 1
 Download the repository and run the python file named 'test_findline_equation.py'  
