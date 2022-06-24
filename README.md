@@ -1,6 +1,7 @@
 # Points_Line_Standard_Form_Exercise
 Program to find the equation of a line in the standard form Ax +By = C. 
-This program takes user input in form of two co-ordinate pairs.
+This program takes user input in form of two co-ordinate pairs. The code is 
+PEP-8 compliant and written using pylint linting tool.
 
 This program takes two points (co-ordinate pairs) as input and outputs the linear euation of a line 
 crossing these two co-rdinates in the standard form i,e. Ax + By = C. 
