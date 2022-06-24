@@ -23,7 +23,7 @@ Download the repository and run the python file named 'test_findline_equation.py
 
 ### Method 2
 1. Download the repository  <br>
-2. Open the file names 'findline_equation.py' <br>
+2. Open the file named 'findline_equation.py' <br>
 3. add the following line at the very end of the file and hit enter and save. 
 ```
 print(find_line_from_two_coordinates(input_coordinates()))
