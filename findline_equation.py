@@ -4,7 +4,6 @@
 from fractions import Fraction
 import math
 import sys
-
 def err_get_input_again():
     """ method to show error message and ask user to either reinput values
     or exit program"""
@@ -95,12 +94,22 @@ def find_gcf(a,b,c):
     c = c // common_factor
     return a,b,c
 
-def check_input_edge_value(ls):
+def in_range(ls):
     """Method to check if boundry values are within +/-30."""
     for i in ls:
-        if i not in range(-30,30):
-            return True
-    return False
+        if isinstance(i, int):
+            if i in range(-30,30):
+                return True
+            else:
+                return False
+        elif isinstance(i, float):
+            if i <=30 and i >= -30:
+                return True
+            else:
+                return False
+        else:
+            return False
+
 
 def find_line_from_two_coordinates(lst):
     """ method to find the stand form of line from two cartisian cordinate pairs
@@ -113,7 +122,7 @@ def find_line_from_two_coordinates(lst):
         else:
             numlst.append(float(item))
 
-    if check_input_edge_value(numlst):
+    if not in_range(numlst):
         print("The x and y-axis values must be in the +/-30 range!")
         err_get_input_again()
     a = numlst[1] - numlst[3]
