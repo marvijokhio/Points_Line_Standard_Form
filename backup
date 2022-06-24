@@ -1,0 +1,10 @@
+    if a == 0:
+        print("The line passing through points (",numlst[0],",", numlst[1],") and (",
+        numlst[2],",",numlst[3],") is: ",Fraction(b), "y =", Fraction(c), "\n")
+    elif b == 0:
+        print("The line passing through points (",numlst[0],",", numlst[1],") and (",
+        numlst[2],",",numlst[3],") is: ", Fraction(a), "x =", Fraction(c), "\n")
+    else:
+        print("The line passing through points (",numlst[0],",", numlst[1],") and (",
+        numlst[2],",",numlst[3],") is: ", Fraction(a), "x + ", Fraction(b), "y = ", Fraction(c), "\n")
+
