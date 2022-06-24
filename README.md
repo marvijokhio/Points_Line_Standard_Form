@@ -22,12 +22,12 @@ You can run the program in two ways.
 
 
 ### Method 1
-Download the repository <br>
-Run the python file named 'test_findline_equation.py'  
+Download the repository and run the python file named 'test_findline_equation.py'  
 
 ### Method 2
-Download the repository  <br>
-Open the file names 'test_findline_equation.py' and add this line at the very end of the file and hit enter and save. 
+1. Download the repository  <br>
+2. Open the file names 'test_findline_equation.py' <br>
+3. add the following line at the very end of the file and hit enter and save. 
 ```
 find_line_from_two_coordinates(input_coordinates())
 ```
