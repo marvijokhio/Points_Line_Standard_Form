@@ -120,4 +120,3 @@ def find_line_from_two_coordinates(lst):
 
     return opt
 
-find_line_from_two_coordinates(input_coordinates())
