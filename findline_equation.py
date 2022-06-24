@@ -115,6 +115,7 @@ def find_line_from_two_coordinates(lst):
 
     if check_input_edge_value(numlst):
         print("The x and y-axis values must be in the +/-30 range!")
+        err_get_input_again()
     a = numlst[1] - numlst[3]
     b = numlst[2] - numlst[0]
     c = a*(numlst[0]) + b*(numlst[1])
