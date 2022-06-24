@@ -5,7 +5,6 @@ from fractions import Fraction
 import math
 import sys
 
-
 def err_get_input_again():
     """ method to show error message and ask user to either reinput values
     or exit program"""
@@ -120,3 +119,5 @@ def find_line_from_two_coordinates(lst):
         opt = str(Fraction(a))+ " x + "+ str(Fraction(b))+ " y = "+ str(Fraction(c))
 
     return opt
+
+find_line_from_two_coordinates(input_coordinates())

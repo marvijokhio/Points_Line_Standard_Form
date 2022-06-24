@@ -1,4 +1,4 @@
-""" Program to test"""
+""" Program to test """
 import unittest
 import findline_equation
 
