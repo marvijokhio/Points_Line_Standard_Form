@@ -15,9 +15,21 @@ recommended to use values under 10 for x and y.
 
 
 
-# How to run the program
+## How to run the program
 You can run the program in two ways. 
 1. Run it to just test using given test file named 'test_findline_euation.py' or 
 2. You can directly run the main file named 'findline_equation.py'
 
+
+### Method 1
+Download the repository
+Run the python file named 'test_findline_euation.py'
+
+### Method 2
+Download the repository
+Open the file names 'test_findline_euation.py' and add this line at the very end of the file and save. 
+```
+find_line_from_two_coordinates(input_coordinates())
+```
+Now run this python file named 'test_findline_euation.py'
 
