@@ -95,22 +95,32 @@ def find_gcf(a,b,c):
     c = c // common_factor
     return a,b,c
 
+def check_input_edge_value(ls):
+    """Method to check if boundry values are within +/-30."""
+    for i in ls:
+        if i not in range(-30,30):
+            return True
+    return False
 
 def find_line_from_two_coordinates(lst):
     """ method to find the stand form of line from two cartisian cordinate pairs
     (x1,y1), (x2,y2) """
+
     numlst = []
     for item in lst:
         if item.isdigit():
             numlst.append(int(item))
         else:
             numlst.append(float(item))
+
+    if check_input_edge_value(numlst):
+        print("The x and y-axis values must be in the +/-30 range!")
     a = numlst[1] - numlst[3]
     b = numlst[2] - numlst[0]
     c = a*(numlst[0]) + b*(numlst[1])
 
     a,b,c = convert_decimal_to_fraction(a,b,c)
-    
+
     if a == 0:
         opt = str(Fraction(b))+ " y = "+ str(Fraction(c))
     elif b == 0:
@@ -119,4 +129,3 @@ def find_line_from_two_coordinates(lst):
         opt = str(Fraction(a))+ " x + "+ str(Fraction(b))+ " y = "+ str(Fraction(c))
 
     return opt
-
