@@ -7,7 +7,7 @@ This program takes two points (co-ordinate pairs) as input and outputs the linea
 crossing these two co-rdinates in the standard form i,e. Ax + By = C. 
 For example, co-ordinates (1,3) and (2,4) have line equation −1x+1y=2. 
 You can use this [This is an external link to genome.gov](https://www.mathwarehouse.com/calculators/equation-line-from-2-points.php) webpage to check your answers. This web page takes two points and show line equation in all the forms but just check the standard form. Note: there could be difference in some answers as our code doesn't 
-reduce or simplify the equation by taking commons facotrs. 
+reduce or simplify the equation by taking commons factors. 
 
 Limitations: 
 1. The program does not reduce or simplify the final euation by taking highest common factors. 
