@@ -29,4 +29,3 @@ Download the repository and run the python file named 'test_findline_equation.py
 print(find_line_from_two_coordinates(input_coordinates()))
 ```
 Now run this python file named 'findline_equation.py'
-
